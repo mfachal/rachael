@@ -1,0 +1,13 @@
+[package]
+name = "nom"
+version = "0.1.0"
+authors = ["matias <mfachal>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "nom"
+path = "main.rs"
